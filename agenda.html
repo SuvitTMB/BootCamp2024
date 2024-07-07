@@ -51,6 +51,38 @@
     }
     
   </style>
+<script>
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      width: '100%',
+      height: '230',
+      videoId: 'TT6dxvtkTDw',
+      events: {
+        'onReady': onPlayerReady,
+        'onStateChange': onPlayerStateChange
+      }
+    });
+  }
+  function onPlayerReady(event) {
+    event.target.playVideo();
+    player.mute(); // comment out if you don't want the auto played video muted
+  }
+  function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.ENDED) {
+      player.seekTo(0);
+      player.playVideo();
+    }
+  }
+  function stopVideo() {
+    player.stopVideo();
+    document.getElementById('id02').style.display='none';
+  }
+</script>
 </head>
 
 <body class="body">
@@ -88,8 +120,11 @@
   </div>
   <main style="margin-top:45px;">
     <center>
+      <div id="ytplayer"></div>
+<!--
       <div><iframe width="100%" height="230" src="https://www.youtube-nocookie.com/embed/TT6dxvtkTDw?si=I1bCAxP2EOftddvN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
+-->
       <div style="margin-top:-1px;"><img src="https://firebasestorage.googleapis.com/v0/b/retailproject-6f4fc.appspot.com/o/img%2Fbootcamp-bm.jpg?alt=media&token=7e52cbe1-4cdf-4476-a7b3-dd6d11628306" style="width:100%;"></div>
     </center>
  </main>
