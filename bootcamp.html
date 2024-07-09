@@ -27,38 +27,6 @@
       border-radius: 50%; width:110px; height: 110px; 
     }  
   </style>
-<script>
-  var tag = document.createElement('script');
-  tag.src = "https://www.youtube.com/player_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-  var player;
-  function onYouTubePlayerAPIReady() {
-    player = new YT.Player('ytplayer', {
-      width: '100%',
-      height: '230',
-      videoId: 'TT6dxvtkTDw',
-      events: {
-        'onReady': onPlayerReady,
-        'onStateChange': onPlayerStateChange
-      }
-    });
-  }
-  function onPlayerReady(event) {
-    event.target.playVideo();
-    player.mute(); // comment out if you don't want the auto played video muted
-  }
-  function onPlayerStateChange(event) {
-    if (event.data == YT.PlayerState.ENDED) {
-      player.seekTo(0);
-      player.playVideo();
-    }
-  }
-  function stopVideo() {
-    player.stopVideo();
-    document.getElementById('id02').style.display='none';
-  }
-</script>
 </head>
 
 <body class="body2" data-spy="scroll" data-target=".navbar" data-offset="60" style="background-color: #e3f1f9;">
