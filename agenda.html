@@ -52,10 +52,14 @@
     
   </style>
   <script>
+    // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
     tag.src = "https://www.youtube.com/player_api";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // 3. This function creates an <iframe> (and YouTube player)
+    //    after the API code downloads.
     var player;
     function onYouTubePlayerAPIReady() {
       player = new YT.Player('ytplayer', {
@@ -68,10 +72,16 @@
         }
       });
     }
+
+    // 4. The API will call this function when the video player is ready.
     function onPlayerReady(event) {
       event.target.playVideo();
       player.mute(); // comment out if you don't want the auto played video muted
     }
+
+    // 5. The API calls this function when the player's state changes.
+    //    The function indicates that when playing a video (state=1),
+    //    the player should play for six seconds and then stop.
     function onPlayerStateChange(event) {
       if (event.data == YT.PlayerState.ENDED) {
         player.seekTo(0);
@@ -121,10 +131,6 @@
   <main style="margin-top:45px;">
     <center>
       <div id="ytplayer"></div>
-<!--
-      <div><iframe width="100%" height="230" src="https://www.youtube-nocookie.com/embed/TT6dxvtkTDw?si=I1bCAxP2EOftddvN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
--->
       <div style="margin-top:-1px;"><img src="https://firebasestorage.googleapis.com/v0/b/retailproject-6f4fc.appspot.com/o/img%2Fbootcamp-bm.jpg?alt=media&token=7e52cbe1-4cdf-4476-a7b3-dd6d11628306" style="width:100%;"></div>
     </center>
  </main>
