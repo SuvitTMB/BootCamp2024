@@ -1,1 +1,125 @@
-var _0x177849=_0x2ce8;(function(_0x384851,_0x26dd25){var _0x1c1d91=_0x2ce8,_0x5b2624=_0x384851();while(!![]){try{var _0x57802d=-parseInt(_0x1c1d91(0x197))/0x1+parseInt(_0x1c1d91(0x1a5))/0x2+-parseInt(_0x1c1d91(0x1a7))/0x3+-parseInt(_0x1c1d91(0x198))/0x4+-parseInt(_0x1c1d91(0x17c))/0x5+-parseInt(_0x1c1d91(0x172))/0x6*(-parseInt(_0x1c1d91(0x181))/0x7)+-parseInt(_0x1c1d91(0x170))/0x8*(-parseInt(_0x1c1d91(0x193))/0x9);if(_0x57802d===_0x26dd25)break;else _0x5b2624['push'](_0x5b2624['shift']());}catch(_0x44e18d){_0x5b2624['push'](_0x5b2624['shift']());}}}(_0x3c22,0x56148));var xClickMenu='',aClickMenu='';$(document)[_0x177849(0x19a)](function(){var _0x389e85=_0x177849;aClickMenu=getParameterByName(_0x389e85(0x189)),aClickMenu==null?aClickMenu='England':aClickMenu=aClickMenu,Connect_DB(),SelectMeunu();});function getParameterByName(_0x161577,_0x5d25b6){var _0x36165e=_0x177849;if(!_0x5d25b6)_0x5d25b6=window['location'][_0x36165e(0x1b1)];_0x161577=_0x161577[_0x36165e(0x17d)](/[\[\]]/g,_0x36165e(0x18f));var _0x3ae8c6=new RegExp(_0x36165e(0x16b)+_0x161577+'(=([^&#]*)|&|#|$)'),_0x39a667=_0x3ae8c6['exec'](_0x5d25b6);if(!_0x39a667)return null;if(!_0x39a667[0x2])return'';return decodeURIComponent(_0x39a667[0x2][_0x36165e(0x17d)](/\+/g,'\x20'));}function _0x3c22(){var _0x28525f=['จำนวนสมาชิก\x20','block','</td>','.jpg\x22\x20style=\x22width:150px;\x20border-radius:\x2010px;\x20border:\x201px\x20#ccc\x20solid\x22></div>','gid','<tr\x20onclick=\x22OpenProfile(\x27','</tbody></table>','orderBy','ShortName','<center><div\x20class=\x22text-1\x22\x20style=\x22font-size:14px;\x20font-weight:\x20600;\x22>','\x5c$&','#DisplayRSOCTeam','<div\x20style=\x22margin-top:5px;\x22><img\x20src=\x22./flax/','EmpName','9LarNPH','<br><b>','get','LoadImg','140529cNgWHC','115648ejoBCy','<div\x20style=\x22text-align:center;\x22><img\x20src=\x22./flax/m.png\x22\x20class=\x22add-profile\x22></div>','ready','.jpg\x22\x20style=\x22width:180px;\x20border-radius:\x2010px;\x22></div>','</tr>','display','</b></font>','EmpSize','</div>','<font\x20color=\x22#f68b1f\x22>\x20(','EmpGroup','EmpRH','data','685710gZurel','CampRound','791232MkWqpt','#DisplayProfile','FieldPath','firestore','EmpSex','<div\x20class=\x22text-3\x22>คลิกที่ชื่อเพื่อดูรายละเอียดเพิ่มเติม</div>','getElementById','LinePicture','value','log','href','<td\x20class=\x22td-center\x20td-padding\x22\x20style=\x22width:12%;text-align:center;\x22><img\x20src=\x22./flax/f.png\x22\x20class=\x22profile-team\x22>','none','<td\x20class=\x22td-center\x20td-padding\x22\x20style=\x22width:12%;text-align:center;\x20background:#d2e6f5;\x22><img\x20src=\x22','documentId','\x22\x20class=\x22add-profile\x22\x20style=\x22margin:10px\x20auto\x2020px\x20auto;\x22></div>','</div></center>','EmpBranch','<div\x20style=\x22text-align:center;\x22><img\x20src=\x22./flax/f.png\x22\x20class=\x22add-profile\x22></div>','id01','#DisplayRSOCSum','[?&]',')</font><br>','<table\x20class=\x22table\x22\x20style=\x22width:95%;\x20margin:10px\x20auto\x2020px\x20auto;\x22><tbody>','forEach','style','4162904QOOewE','<center><div\x20class=\x22btn-t33\x22\x20style=\x22margin-top:6px;background:#69b8f1;border:\x20solid\x20#fff\x201px\x22>','6oREcmF','</b></td>','ClickMenu','\x27)\x22>','html','<br>','<center><div><img\x20src=\x22','EmpPosition','\x27)\x22\x20class=\x22LinkProfile\x22\x20style=\x22background:#d2e6f5;\x22>','\x20คน','1442395hogVfj','replace','<td\x20class=\x22td-padding\x22\x20style=\x22width:88%;\x22><font\x20color=\x22#0056ff\x22><b>','#DisplayFlax','where','1477210kHxBAT','<div\x20class=\x22text-2\x22>','EmpZone','\x22\x20class=\x22profile-team\x22\x20onerror=\x22javascript:imgErrorID(this,\x27'];_0x3c22=function(){return _0x28525f;};return _0x3c22();}function SelectMeunu(){var _0x164a98=_0x177849;aClickMenu!=''?(console[_0x164a98(0x1b0)]('1='+aClickMenu),xClickMenu=aClickMenu,document[_0x164a98(0x1ad)](_0x164a98(0x174))[_0x164a98(0x1af)]=aClickMenu):xClickMenu=document[_0x164a98(0x1ad)](_0x164a98(0x174))[_0x164a98(0x1af)],$(_0x164a98(0x17f))['html'](_0x164a98(0x191)+xClickMenu+_0x164a98(0x188)),aClickMenu='',loadData();}function loadData(){var _0x591eed=_0x177849,_0x33f4c2=0x0,_0x67bd7c='';_0x67bd7c+=_0x591eed(0x16d),dbBootMember[_0x591eed(0x180)](_0x591eed(0x1a6),'==',sessionStorage['getItem'](_0x591eed(0x1a6)))[_0x591eed(0x180)](_0x591eed(0x1a2),'==',xClickMenu)[_0x591eed(0x18c)]('EmpPosition','asc')[_0x591eed(0x195)]()['then'](_0x508416=>{var _0x19cbb1=_0x591eed;_0x508416['forEach'](_0x57cc0d=>{var _0x3a13dd=_0x2ce8;_0x57cc0d[_0x3a13dd(0x1a4)]()[_0x3a13dd(0x1ae)]!=''?(_0x67bd7c+=_0x3a13dd(0x18a)+_0x57cc0d['id']+_0x3a13dd(0x17a),_0x67bd7c+=_0x3a13dd(0x1b4)+_0x57cc0d[_0x3a13dd(0x1a4)]()['LinePicture']+_0x3a13dd(0x184)+_0x57cc0d['id']+_0x3a13dd(0x175),_0x67bd7c+=_0x3a13dd(0x187)):(_0x67bd7c+=_0x3a13dd(0x18a)+_0x57cc0d['id']+'\x27)\x22\x20class=\x22LinkProfile\x22\x20style=\x22filter:\x20grayscale(100%);\x22>',_0x57cc0d[_0x3a13dd(0x1a4)]()[_0x3a13dd(0x1ab)]=='M'?(_0x67bd7c+='<td\x20class=\x22td-center\x20td-padding\x22\x20style=\x22width:12%;text-align:center;\x22><img\x20src=\x22./flax/m.png\x22\x20class=\x22profile-team\x22>',_0x67bd7c+='</td>'):(_0x67bd7c+=_0x3a13dd(0x1b2),_0x67bd7c+=_0x3a13dd(0x187))),_0x67bd7c+=_0x3a13dd(0x17e)+_0x57cc0d[_0x3a13dd(0x1a4)]()[_0x3a13dd(0x192)]+_0x3a13dd(0x19e),_0x67bd7c+=_0x3a13dd(0x1a1)+_0x57cc0d[_0x3a13dd(0x1a4)]()['ShortName']+_0x3a13dd(0x16c)+_0x57cc0d[_0x3a13dd(0x1a4)]()[_0x3a13dd(0x167)]+_0x3a13dd(0x177)+_0x57cc0d[_0x3a13dd(0x1a4)]()['EmpPosition']+_0x3a13dd(0x177)+_0x57cc0d[_0x3a13dd(0x1a4)]()[_0x3a13dd(0x183)]+_0x3a13dd(0x194)+_0x57cc0d[_0x3a13dd(0x1a4)]()[_0x3a13dd(0x1a3)]+_0x3a13dd(0x173),_0x67bd7c+=_0x3a13dd(0x19c),_0x33f4c2++;}),_0x67bd7c+=_0x19cbb1(0x18b),_0x67bd7c+=_0x19cbb1(0x1ac),$(_0x19cbb1(0x190))[_0x19cbb1(0x176)](_0x67bd7c),$(_0x19cbb1(0x16a))['html'](_0x19cbb1(0x185)+_0x33f4c2+_0x19cbb1(0x17b));});}function OpenProfile(_0x339afd){var _0x5ccf66=_0x177849,_0xe05fc4='';dbBootMember[_0x5ccf66(0x180)](firebase[_0x5ccf66(0x1aa)][_0x5ccf66(0x1a9)][_0x5ccf66(0x164)](),'==',_0x339afd)[_0x5ccf66(0x195)]()['then'](_0x4a8f6b=>{var _0x17b06b=_0x5ccf66;_0x4a8f6b[_0x17b06b(0x16e)](_0x1d8376=>{var _0x4bd075=_0x17b06b;_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x1ae)]!=''?_0xe05fc4+=_0x4bd075(0x178)+_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x1ae)]+_0x4bd075(0x165):_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x1ab)]=='M'?_0xe05fc4+=_0x4bd075(0x199):_0xe05fc4+=_0x4bd075(0x168),_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x196)]!=''&&(_0xe05fc4+=_0x4bd075(0x171)+_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x18d)]+'</div></center>'),_0xe05fc4+=_0x4bd075(0x18e)+_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x192)]+_0x4bd075(0x1a0),_0xe05fc4+=_0x4bd075(0x182)+_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x167)]+_0x4bd075(0x177)+_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x179)]+_0x4bd075(0x177)+_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x183)]+_0x4bd075(0x177)+_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x1a3)]+_0x4bd075(0x166),_0x1d8376['data']()[_0x4bd075(0x196)]!=''&&(_0xe05fc4+='<div\x20style=\x22margin-top:13px;text-align:center;\x20color:#0056ff;\x22>'+_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x19f)]+'<br><br><img\x20src=\x22./flax/'+_0x1d8376[_0x4bd075(0x1a4)]()[_0x4bd075(0x1a2)]+_0x4bd075(0x19b));}),$(_0x17b06b(0x1a8))['html'](_0xe05fc4),document[_0x17b06b(0x1ad)](_0x17b06b(0x169))[_0x17b06b(0x16f)][_0x17b06b(0x19d)]=_0x17b06b(0x186);});}function _0x2ce8(_0x2da7f2,_0x55548f){var _0x3c22d3=_0x3c22();return _0x2ce8=function(_0x2ce80f,_0x28656e){_0x2ce80f=_0x2ce80f-0x164;var _0x577934=_0x3c22d3[_0x2ce80f];return _0x577934;},_0x2ce8(_0x2da7f2,_0x55548f);}function CloseAll(){var _0x189ec2=_0x177849;document[_0x189ec2(0x1ad)](_0x189ec2(0x169))['style'][_0x189ec2(0x19d)]=_0x189ec2(0x1b3);}
+var xClickMenu = "";
+var aClickMenu = "";
+
+
+$(document).ready(function () {
+  aClickMenu = getParameterByName('gid');
+  if(aClickMenu==null) { aClickMenu = "England"; } else { aClickMenu = aClickMenu; }
+  Connect_DB();
+  SelectMeunu();
+});
+
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+
+function SelectMeunu() {
+  if(aClickMenu!="") {
+    console.log("1="+aClickMenu);
+    xClickMenu = aClickMenu;
+    document.getElementById("ClickMenu").value = aClickMenu;
+  } else {
+    xClickMenu = document.getElementById("ClickMenu").value;
+  }
+  $("#DisplayFlax").html('<div style="margin-top:5px;"><img src="./flax/'+xClickMenu+'.jpg" style="width:150px; border-radius: 10px; border: 1px #ccc solid"></div>');  
+  aClickMenu = "";
+  loadData();
+}
+
+
+function loadData() {
+  var i = 0;
+  var str = "";
+  str += '<table class="table" style="width:95%; margin:10px auto 20px auto;"><tbody>';
+  dbBootMember.where('CampRound','==', sessionStorage.getItem("CampRound"))
+  .where('EmpGroup','==', xClickMenu)
+  .orderBy('EmpPosition','asc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      if(doc.data().LinePicture!="") {
+        str += '<tr onclick="OpenProfile(\''+ doc.id +'\')" class="LinkProfile" style="background:#d2e6f5;">';
+        str += '<td class="td-center td-padding" style="width:12%;text-align:center; background:#d2e6f5;"><img src="'+doc.data().LinePicture+'" class="profile-team" onerror="javascript:imgErrorID(this,\''+ doc.id +'\')">';
+        str += '</td>';
+      } else {
+        str += '<tr onclick="OpenProfile(\''+ doc.id +'\')" class="LinkProfile" style="filter: grayscale(100%);">';
+        if(doc.data().EmpSex=="M") {
+          str += '<td class="td-center td-padding" style="width:12%;text-align:center;"><img src="./flax/m.png" class="profile-team">';
+          str += '</td>';
+        } else {
+          str += '<td class="td-center td-padding" style="width:12%;text-align:center;"><img src="./flax/f.png" class="profile-team">';
+          str += '</td>';
+        }
+      }
+      str += '<td class="td-padding" style="width:88%;"><font color="#0056ff"><b>'+doc.data().EmpName+'</b></font><font color="#f68b1f"> ('+doc.data().ShortName+')</font>';
+      if(doc.data().EmpBranch!="") {
+        str += '<br>'+doc.data().EmpBranch;
+      }
+      if(doc.data().EmpPosition!="") {
+        str += '<br>'+doc.data().EmpPosition;
+      }
+      if(doc.data().EmpZone!="") { 
+        str += '<br>'+doc.data().EmpZone;
+      }
+      if(doc.data().EmpRH!="") { 
+        str += '<br><b>'+doc.data().EmpRH;
+      }
+      str += '</td>';
+      //str += '<br>'+doc.data().EmpBranch+'<br>'+doc.data().EmpPosition+'<br>'+doc.data().EmpZone+'<br><b>'+doc.data().EmpRH+'</b></td>';
+      //str += '<br>'+doc.data().EmpBranch+'<br>'+doc.data().EmpPosition+'<br>'+doc.data().EmpZone+'<br><b>'+doc.data().EmpRH+'</b></td>';
+      //str += '<font color="#f68b1f"> ('+doc.data().ShortName+')</font><br>'+doc.data().EmpRH+'<br><b>'+doc.data().EmpBU+'</b></td>';
+      //str += '<td class="td-right" style="width:24%;text-align: center;"><div class="btn-t1" style="margin-top:0px;">View</div></td>';
+      str += '</tr>';
+      i++;
+    }); 
+    str += '</tbody></table>';
+    str += '<div class="text-3">คลิกที่ชื่อเพื่อดูรายละเอียดเพิ่มเติม</div>';
+    $("#DisplayRSOCTeam").html(str);  
+    $("#DisplayRSOCSum").html("จำนวนสมาชิก "+ i +" คน");  
+    //alert(i);
+  });
+
+}
+
+
+function OpenProfile(uid) {
+  var str = "";
+  dbBootMember.where(firebase.firestore.FieldPath.documentId(), "==", uid)
+  .get().then((snapshot)=> {
+  snapshot.forEach(doc=> {
+      if(doc.data().LinePicture!="") { 
+        str += '<center><div><img src="'+doc.data().LinePicture+'" class="add-profile" style="margin:10px auto 20px auto;"></div>';
+        //str += '<div class="NameLine">'+doc.data().LineName+'</div></center>';
+      } else {
+        if(doc.data().EmpSex=="M") {
+          str += '<div style="text-align:center;"><img src="./flax/m.png" class="add-profile"></div>';
+        } else {
+          str += '<div style="text-align:center;"><img src="./flax/f.png" class="add-profile"></div>';
+        }
+      }
+      if(doc.data().LoadImg!="") {
+        str += '<center><div class="btn-t33" style="margin-top:6px;background:#69b8f1;border: solid #fff 1px">'+doc.data().ShortName+'</div></center>';
+      }
+      str += '<center><div class="text-1" style="font-size:14px; font-weight: 600;">'+doc.data().EmpName+'</div>';
+      str += '<div class="text-2">'+doc.data().EmpBranch+'<br>'+doc.data().EmpPosition+'<br>'+doc.data().EmpZone+'<br>'+doc.data().EmpRH+'</div></center>';
+      //str += '<div class="text-2">'+doc.data().EmpZone+'<br>'+doc.data().EmpPosition+'<br>'+doc.data().EmpRH+'</div>';
+      if(doc.data().LoadImg!="") {
+        str += '<div style="margin-top:13px;text-align:center; color:#0056ff;">'+doc.data().EmpSize+'<br><br><img src="./flax/'+doc.data().EmpGroup+'.jpg" style="width:180px; border-radius: 10px;"></div>';
+      }
+    });
+    $("#DisplayProfile").html(str);  
+    document.getElementById("id01").style.display = "block";
+  });
+}
+
+
+function CloseAll() {
+  document.getElementById('id01').style.display='none';
+}

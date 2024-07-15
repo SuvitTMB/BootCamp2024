@@ -1,1 +1,540 @@
-var _0x22cf5c=_0x51a1;function _0x51a1(_0x2a63a7,_0x38f3f8){var _0x46c4eb=_0x46c4();return _0x51a1=function(_0x51a1a9,_0x2f53f8){_0x51a1a9=_0x51a1a9-0xec;var _0x148c50=_0x46c4eb[_0x51a1a9];return _0x148c50;},_0x51a1(_0x2a63a7,_0x38f3f8);}(function(_0xe32316,_0x36b7c0){var _0x516807=_0x51a1,_0x4676e9=_0xe32316();while(!![]){try{var _0x303e7d=parseInt(_0x516807(0x166))/0x1+-parseInt(_0x516807(0x10f))/0x2*(-parseInt(_0x516807(0x113))/0x3)+-parseInt(_0x516807(0x131))/0x4+-parseInt(_0x516807(0xfb))/0x5+-parseInt(_0x516807(0x107))/0x6*(-parseInt(_0x516807(0xfa))/0x7)+-parseInt(_0x516807(0x101))/0x8+parseInt(_0x516807(0x14e))/0x9*(parseInt(_0x516807(0x153))/0xa);if(_0x303e7d===_0x36b7c0)break;else _0x4676e9['push'](_0x4676e9['shift']());}catch(_0x4b6925){_0x4676e9['push'](_0x4676e9['shift']());}}}(_0x46c4,0x567c4));var GroupCamp=0x4,timerId='',stxtEmpID='',stxtEmpName='',stxtEmpPhone='',stxtEmpGroup='',db='',dbBootCamp='',dbBootMember='',CheckFoundData=0x0,Eid='',EidBootCamp='',EidBootRegister='',EidBootMember='',dateString=new Date()[_0x22cf5c(0x13e)]('en-US',{'timeZone':'Asia/Jakarta'}),sDateRegister='',i=0x0;const x=document[_0x22cf5c(0xf3)](_0x22cf5c(0x110)+i+'\x22]');var sCheckOpen='',sCampRound='',sDateTime='',sLINERegister='',sATK='',xRound='',parts=[],parts1=[];parts=xRound[_0x22cf5c(0x105)]('-');var FinalRound=parts[0x0],FinalRoundSplit=parts[0x1],xEmpSize='',eSpace='',xEmpGroup='',sCheckBottom=0x0,xReDirectData=0x0,sTeam='',sTrainingDays='',xText=_0x22cf5c(0x122);$(document)[_0x22cf5c(0x108)](function(){main();});async function main(){var _0xe8353c=_0x22cf5c;await liff[_0xe8353c(0x109)]({'liffId':_0xe8353c(0x12f)}),document[_0xe8353c(0x155)](_0xe8353c(0x16b))[_0xe8353c(0x12a)](liff[_0xe8353c(0x16b)]()),liff[_0xe8353c(0x16b)]()?getUserProfile():liff[_0xe8353c(0x15f)]();}function openWindow(){var _0x4950af=_0x22cf5c;liff[_0x4950af(0x15d)]({'url':_0x4950af(0x11c),'external':!![]});}async function getUserProfile(){var _0x26a089=_0x22cf5c,_0x273ec7='';const _0x30f617=await liff['getProfile']();sessionStorage[_0x26a089(0x152)]('LineID',_0x30f617[_0x26a089(0xee)]),sessionStorage[_0x26a089(0x152)](_0x26a089(0x139),_0x30f617['displayName']),sessionStorage['setItem'](_0x26a089(0x127),_0x30f617['pictureUrl']),_0x273ec7+=_0x26a089(0x10c)+sessionStorage['getItem'](_0x26a089(0x127))+'\x22\x20class=\x22profile-team1\x22></div>',_0x273ec7+=_0x26a089(0x158)+sessionStorage[_0x26a089(0x103)]('LineName')+'</div>',$(_0x26a089(0xf7))['html'](_0x273ec7),$('#MyProfile1')[_0x26a089(0x129)](_0x273ec7),Connect_DB(),CheckEmpID(),CheckBootCampOpen();}var xCheckUser=0x0;function CheckEmpID(){var _0xea338a=_0x22cf5c;db['where']('lineID','==',sessionStorage[_0xea338a(0x103)](_0xea338a(0x167)))[_0xea338a(0x118)](0x1)[_0xea338a(0x147)]()[_0xea338a(0x16f)](_0x3ac103=>{var _0x44bee1=_0xea338a;_0x3ac103[_0x44bee1(0xfe)](_0x70e39c=>{var _0x574903=_0x44bee1;xCheckUser=_0x70e39c[_0x574903(0x159)]()[_0x574903(0x16a)],sessionStorage[_0x574903(0x152)](_0x574903(0x171),_0x70e39c[_0x574903(0x159)]()['empID']);});});}function CheckBootCampOpen(){var _0x2c29b4=_0x22cf5c,_0x4976e7='';dbBootCamp[_0x2c29b4(0x120)](_0x2c29b4(0x10a),'==',GroupCamp)[_0x2c29b4(0x118)](0x1)[_0x2c29b4(0x147)]()[_0x2c29b4(0x16f)](_0x368bbb=>{var _0x8ef9d1=_0x2c29b4;_0x368bbb[_0x8ef9d1(0xfe)](_0x31b600=>{var _0x32334c=_0x8ef9d1;EidBootCamp=_0x31b600['id'],xRound=_0x31b600[_0x32334c(0x159)]()[_0x32334c(0x16e)],sEmpType=_0x31b600[_0x32334c(0x159)]()[_0x32334c(0x16e)],sCheckOpen=_0x31b600[_0x32334c(0x159)]()[_0x32334c(0x15c)],sCampRound=_0x31b600['data']()[_0x32334c(0x116)],simg_reg=_0x31b600['data']()[_0x32334c(0xf4)],sTrainingDays=_0x31b600[_0x32334c(0x159)]()['TrainingDays'],sessionStorage[_0x32334c(0x152)]('CampRound',_0x31b600[_0x32334c(0x159)]()['CampRound']),sessionStorage[_0x32334c(0x152)](_0x32334c(0x135),_0x31b600['data']()[_0x32334c(0x115)]),sessionStorage['setItem']('CampName',_0x31b600['data']()[_0x32334c(0x15c)]),$('#OpenNameCamp')[_0x32334c(0x129)](sCheckOpen+'<br>'+sTrainingDays),$(_0x32334c(0xf2))['html'](sCheckOpen+_0x32334c(0xfc)+sTrainingDays);}),xRound!=''?(CheckData(),CheckRegister()):RegisterClose();});}var xCheckRegister=0x0;function CheckRegister(){var _0x36ef7c=_0x22cf5c,_0x4aa3ef='';dbBootRegister['where']('LineID','==',sessionStorage['getItem'](_0x36ef7c(0x167)))['where'](_0x36ef7c(0x116),'==',xRound)['limit'](0x1)[_0x36ef7c(0x147)]()[_0x36ef7c(0x16f)](_0xfc387b=>{var _0x28e404=_0x36ef7c;_0xfc387b[_0x28e404(0xfe)](_0x13c7ff=>{var _0x32a840=_0x28e404;xCheckRegister=0x1,EidBootRegister=_0x13c7ff['id'],sDateTime=_0x13c7ff['data']()[_0x32a840(0xf1)],sessionStorage[_0x32a840(0x152)]('EmpID',_0x13c7ff['data']()[_0x32a840(0x171)]),sessionStorage[_0x32a840(0x152)]('EmpName',_0x13c7ff['data']()['EmpName']),sessionStorage['setItem'](_0x32a840(0x172),_0x13c7ff[_0x32a840(0x159)]()[_0x32a840(0xf1)]),sessionStorage[_0x32a840(0x152)](_0x32a840(0x115),_0x13c7ff[_0x32a840(0x159)]()['EmpRH']),sessionStorage[_0x32a840(0x152)](_0x32a840(0x12b),_0x13c7ff[_0x32a840(0x159)]()['EmpMember']),sessionStorage[_0x32a840(0x152)](_0x32a840(0x11b),_0x13c7ff[_0x32a840(0x159)]()['PreRegister']),sessionStorage[_0x32a840(0x152)](_0x32a840(0xf1),_0x13c7ff['data']()[_0x32a840(0xf1)]),document[_0x32a840(0x155)](_0x32a840(0x165))[_0x32a840(0xec)][_0x32a840(0x162)]=_0x32a840(0x15a),document[_0x32a840(0x155)](_0x32a840(0x150))[_0x32a840(0xec)][_0x32a840(0x162)]='none',document[_0x32a840(0x155)](_0x32a840(0x163))[_0x32a840(0xec)][_0x32a840(0x162)]=_0x32a840(0x10e),document[_0x32a840(0x155)](_0x32a840(0x102))[_0x32a840(0xec)][_0x32a840(0x162)]=_0x32a840(0x10e);}),EidBootRegister==''?(CheckMember(),document[_0x28e404(0x155)](_0x28e404(0x11f))[_0x28e404(0xec)][_0x28e404(0x162)]='none',document[_0x28e404(0x155)]('gotoLink')[_0x28e404(0xec)]['display']=_0x28e404(0x10e),document['getElementById'](_0x28e404(0x154))['style']['display']='block'):(sessionStorage['getItem'](_0x28e404(0x167))!=null&&(sessionStorage[_0x28e404(0x103)]('DateTime')==''&&SaveUpdate()),CheckMember());});}function CheckMember(){var _0x4ce0bc=_0x22cf5c;NewDate(),dbBootMember[_0x4ce0bc(0x120)]('EmpID','==',parseFloat(sessionStorage[_0x4ce0bc(0x103)]('EmpID')))[_0x4ce0bc(0x120)](_0x4ce0bc(0x16e),'==',sCampRound)[_0x4ce0bc(0x118)](0x1)['get']()[_0x4ce0bc(0x16f)](_0x11aefd=>{var _0x406bed=_0x4ce0bc;_0x11aefd[_0x406bed(0xfe)](_0xd58a6c=>{var _0x4c98b2=_0x406bed;EidBootMember=_0xd58a6c['id'],xEmpType=_0xd58a6c[_0x4c98b2(0x159)]()['EmpType'],sessionStorage[_0x4c98b2(0x152)](_0x4c98b2(0x11e),_0xd58a6c['data']()[_0x4c98b2(0x11e)]),sessionStorage[_0x4c98b2(0x152)](_0x4c98b2(0x117),_0xd58a6c['data']()[_0x4c98b2(0x117)]),sessionStorage['setItem'](_0x4c98b2(0x11d),_0xd58a6c[_0x4c98b2(0x159)]()[_0x4c98b2(0x11d)]),sessionStorage[_0x4c98b2(0x152)](_0x4c98b2(0x12b),0x1),sessionStorage[_0x4c98b2(0x152)]('EmpSize',_0xd58a6c['data']()[_0x4c98b2(0x130)]),sTeam=_0xd58a6c['data']()[_0x4c98b2(0x115)];});}),xReDirectData==0x1&&(document['getElementById']('loading')[_0x4ce0bc(0xec)][_0x4ce0bc(0x162)]=_0x4ce0bc(0x10e),timerId=setInterval(GotoRoadshow,0xfa0));}function _0x46c4(){var _0x446310=['OpenBar','getItem','other','split','<div\x20style=\x22font-size:14px;\x20font-weight:600;\x20color:#fff;\x20margin:5px\x20auto;\x206px\x20auto;\x20padding-top:8px;\x20padding-bottom:10px;\x20color:#ffff00;\x22>','618JNaaUh','ready','init','CampStatus','<div\x20style=\x22margin-top:20px;font-size:13px;font-weight:\x20600;color:#0056ff;\x22>คุณ','<div><img\x20src=\x22','getDate','block','2cacHsv','div.com[min=\x22','<div\x20class=\x22btn-t1\x22\x20onclick=\x22GotoApp()\x22\x20style=\x22margin-top:25px;\x20margin-right:\x203px;\x22>ONE\x20Retail\x20Society</div>','documentId','1618815Eczeyo','Negative','EmpGroup','CampRound','EmpTable','limit','\x20คน</div>','empPhone','PreRegister','https://line.me','TimeRegister','EmpName','loading','where','</div></div>','ยินดีต้อนรับสู่<br>ttb\x20BootCamp\x202024','</div></center><div\x20class=\x22clr\x22></div>','now','disabled','id01','LinePicture','#MyWating','html','append','EmpMember','id02','value','EmpPhone','1657509542-xojrzmlE','EmpSize','1003120sIZzNi','</div>','<div\x20style=\x22color:#002d63;\x22>ลงทะเบียนกิจกรรม<br>','#txtEmpGroup','CampTeam','getFullYear','BootCampLoading','txtEmpName','LineName','<div\x20style=\x22font-size:15px;\x20font-weight:600;\x20color:#fff;\x20background:#cb1515;\x20margin:12px\x2020%\x206px\x2020%;\x20padding-top:8px;\x20padding-bottom:10px;\x20border-radius:8px;\x22>','myDisplayLine','DisplayLogo','firestore','toLocaleString','<div\x20id=\x22DisplayCountRegister\x22\x20style=\x22margin:\x2010px\x20auto;\x20font-size:\x2013px;\x20color:\x20#ffff00;\x22></div>','\x22\x20class=\x22img-register\x22></div>','round','log','getMonth','<div\x20class=\x22box-member\x22\x20style=\x22width:61px;height:80px;overflow:hidden;float:\x20left;\x22\x20onclick=\x22OpenRegister(\x27','add','<div\x20style=\x22margin-top:5px;\x22><img\x20src=\x22./flax/','get','<div>จำนวนลงทะเบียน\x20:\x20','#a2','OTHER','click','#DisplayCountRegister','#DisplayUser','513VlPJSx','<center><div\x20style=\x22width:220px;\x20margin:auto;\x22>','myRegister','\x27)\x22>','setItem','1410uUSDmL','OpenRegister','getElementById','<div\x20class=\x22txt-member1\x22\x20style=\x22padding-top:\x206px;color:#f68b1f\x22>','txtEmpID','<div\x20class=\x22NameLine\x22>','data','none','prop','CampName','openWindow','<div\x20style=\x22color:#999;font-size:11px;\x22>ลงทะเบียนเมื่อ\x20','login','<div\x20class=\x22profile-txt1\x22\x20style=\x22color:#ccc;\x20font-size:12px;\x20margin-top:12px;\x22>ทีมของคุณ</div>','BootCampClose','display','myTimer','<div\x20class=\x22clr\x22></div>','OpenBootCamp','461346VbxpQB','LineID','#a1','empName','empID','isLoggedIn','getHours','getMinutes','EmpType','then','txtEmpGroup','EmpID','CheckPass','style','#a3','userId','คุณยังกรอกข้อมูลไม่ครบถ้วน','TimeStamp','DateTime','#DisplayRound','querySelectorAll','img_reg','<div\x20class=\x22btn-t1\x22\x20onclick=\x22ShowRegister()\x22\x20style=\x22margin-top:10px;width:230px;font-size:11px;\x22>ดูข้อมูลผู้ลงทะเบียน</div>','.jpg\x22\x20style=\x22width:130px;\x20border-radius:\x2010px;\x22></div>','#MyProfile','desc','doc','8904bLZMul','109050JVXFrf','<br>','update','forEach','<div\x20class=\x22btn-a1\x22\x20onclick=\x22GotoTeam()\x22\x20style=\x22margin-top:5px;\x22>ดูสมาชิกในทีมที่เข้าแข่งขัน</div><div\x20class=\x22clr\x22\x20style=\x22height:5px;\x22></div>','<div\x20style=\x22font-size:\x2014px;\x20color:#fff;\x22>ttb\x20Registration\x20System<br><b>','4105360jTZbqZ'];_0x46c4=function(){return _0x446310;};return _0x46c4();}function SaveUpdate(){var _0x59e7be=_0x22cf5c;NewDate();var _0x673fe=_0x59e7be(0x104),_0x45c0a2=Math[_0x59e7be(0x141)](Date['now']()/0x3e8);sDateTime=dateString,sessionStorage[_0x59e7be(0x152)](_0x59e7be(0x172),sDateTime),dbBootRegister[_0x59e7be(0xf9)](EidBootRegister)['update']({'LineID':sessionStorage[_0x59e7be(0x103)](_0x59e7be(0x167)),'LineName':sessionStorage[_0x59e7be(0x103)](_0x59e7be(0x139)),'LinePicture':sessionStorage[_0x59e7be(0x103)](_0x59e7be(0x127)),'StatusRegister':0x1,'TimeStamp':_0x45c0a2,'TimegetBox':eSpace,'DateTime':dateString});}function WaitingPage(){var _0x2fa52c=_0x22cf5c;document[_0x2fa52c(0x155)](_0x2fa52c(0x154))[_0x2fa52c(0xec)][_0x2fa52c(0x162)]=_0x2fa52c(0x15a),document[_0x2fa52c(0x155)](_0x2fa52c(0x11f))[_0x2fa52c(0xec)][_0x2fa52c(0x162)]=_0x2fa52c(0x15a),document[_0x2fa52c(0x155)]('myDisplayLine')[_0x2fa52c(0xec)][_0x2fa52c(0x162)]=_0x2fa52c(0x15a),document[_0x2fa52c(0x155)](_0x2fa52c(0x150))[_0x2fa52c(0xec)][_0x2fa52c(0x162)]=_0x2fa52c(0x15a);xCheckRegister==0x1&&(document['getElementById'](_0x2fa52c(0x154))[_0x2fa52c(0xec)][_0x2fa52c(0x162)]=_0x2fa52c(0x15a),document[_0x2fa52c(0x155)](_0x2fa52c(0x137))[_0x2fa52c(0xec)][_0x2fa52c(0x162)]=_0x2fa52c(0x15a));var _0x2aa3e5='',_0x2f7650='';sDateTime==''&&(NewDate(),sDateTime=dateString),dbBootMember[_0x2fa52c(0x120)]('EmpID','==',parseFloat(sessionStorage[_0x2fa52c(0x103)](_0x2fa52c(0x171))))[_0x2fa52c(0x120)](_0x2fa52c(0x16e),'==',sCampRound)[_0x2fa52c(0x118)](0x1)['get']()[_0x2fa52c(0x16f)](_0x4fab40=>{var _0x332e91=_0x2fa52c;_0x4fab40[_0x332e91(0xfe)](_0x144f2a=>{var _0x31e1f7=_0x332e91;EidBootMember=_0x144f2a['id'],_0x2f7650=_0x144f2a['data']()[_0x31e1f7(0x16e)],sessionStorage[_0x31e1f7(0x152)](_0x31e1f7(0x11e),_0x144f2a[_0x31e1f7(0x159)]()[_0x31e1f7(0x11e)]),sessionStorage[_0x31e1f7(0x152)]('EmpMember',0x1),xEmpGroup=_0x144f2a[_0x31e1f7(0x159)]()['EmpGroup'],xEmpSize=_0x144f2a[_0x31e1f7(0x159)]()['EmpSize'];}),_0x2aa3e5+='<div\x20style=\x22color:#fff;font-weight:\x20600;\x20margin-bottom:10px;\x22>คุณ'+sessionStorage['getItem'](_0x332e91(0x11e))+_0x332e91(0x132);if(xEmpGroup!=''&&xEmpSize!='')_0x2aa3e5+='<div\x20class=\x22profile-txt1\x22\x20style=\x22color:#ccc;\x20font-size:12px;\x20margin-top:12px;\x22>ทีมของคุณ</div>',_0x2aa3e5+=_0x332e91(0x14f),_0x2aa3e5+=_0x332e91(0x146)+xEmpGroup+_0x332e91(0xf6),_0x2aa3e5+=_0x332e91(0x106)+xEmpSize+_0x332e91(0x132),_0x2aa3e5+=_0x332e91(0x123);else xEmpGroup==''&&xEmpSize!=''?(_0x2aa3e5+=_0x332e91(0x160),_0x2aa3e5+=_0x332e91(0x146)+xEmpGroup+_0x332e91(0xf6),_0x2aa3e5+='<div\x20style=\x22font-size:15px;\x20font-weight:600;\x20color:#fff;\x20background:#05b322;\x20margin:5px\x2030%\x206px\x2030%;\x20padding-top:8px;\x20padding-bottom:10px;\x20border-radius:8px;\x22>'+xEmpSize+_0x332e91(0x132)):_0x2aa3e5+=_0x332e91(0x13a)+xText+_0x332e91(0x132);sDateTime!=''&&(_0x2aa3e5+='<div\x20class=\x22btn-a1\x22\x20onclick=\x22GotoTeam()\x22\x20style=\x22margin-top:20px;\x22>คลิกดูสมาชิกในทีมของคุณ</div><div\x20class=\x22clr\x22\x20style=\x22height:5px;\x22></div>',_0x2aa3e5+='<div\x20style=\x22color:#baaeae;font-size:11px;font-weight:\x20400;\x20margin-top:5px;\x22>ลงทะเบียนเมื่อ\x20:\x20'+sDateTime+_0x332e91(0x132)),document['getElementById']('loading')[_0x332e91(0xec)][_0x332e91(0x162)]=_0x332e91(0x15a),$('#MyWating')[_0x332e91(0x129)](_0x2aa3e5);});}function CheckData(){var _0x43e0aa=_0x22cf5c;document['getElementById'](_0x43e0aa(0x137))[_0x43e0aa(0xec)][_0x43e0aa(0x162)]=_0x43e0aa(0x15a),db['where']('lineID','==',sessionStorage[_0x43e0aa(0x103)](_0x43e0aa(0x167)))['get']()['then'](_0x15722f=>{var _0x3ce863=_0x43e0aa;_0x15722f['forEach'](_0x158193=>{var _0x4c004f=_0x51a1;Eid=_0x158193['id'],sDateRegister=_0x158193[_0x4c004f(0x159)]()['DateRegister'],sessionStorage[_0x4c004f(0x152)](_0x4c004f(0x171),_0x158193[_0x4c004f(0x159)]()[_0x4c004f(0x16a)]),sessionStorage['setItem']('EmpName',_0x158193['data']()[_0x4c004f(0x169)]),sessionStorage[_0x4c004f(0x152)](_0x4c004f(0x12e),_0x158193['data']()[_0x4c004f(0x11a)]),document[_0x4c004f(0x155)](_0x4c004f(0x157))[_0x4c004f(0x12d)]=_0x158193['data']()[_0x4c004f(0x16a)],document[_0x4c004f(0x155)](_0x4c004f(0x138))[_0x4c004f(0x12d)]=_0x158193[_0x4c004f(0x159)]()[_0x4c004f(0x169)],document[_0x4c004f(0x155)](_0x4c004f(0x170))[_0x4c004f(0x12d)]=_0x158193[_0x4c004f(0x159)]()['empRH'],WaitingPage();}),document[_0x3ce863(0x155)](_0x3ce863(0x157))[_0x3ce863(0x12d)]!=''&&($('#test\x20*')['attr'](_0x3ce863(0x125),_0x3ce863(0x125))['off'](_0x3ce863(0x14b)),$(_0x3ce863(0x134))[_0x3ce863(0x15b)](_0x3ce863(0x125),![]),$(_0x3ce863(0x168))['prop']('disabled',![]),$(_0x3ce863(0x149))[_0x3ce863(0x15b)](_0x3ce863(0x125),![]),$(_0x3ce863(0xed))[_0x3ce863(0x15b)]('disabled',![]));});}function KeyRegister(){var _0x3e506d=_0x22cf5c;document[_0x3e506d(0x155)](_0x3e506d(0x154))[_0x3e506d(0xec)][_0x3e506d(0x162)]=_0x3e506d(0x15a),document[_0x3e506d(0x155)](_0x3e506d(0x13c))[_0x3e506d(0xec)]['display']='none',document['getElementById'](_0x3e506d(0x11f))[_0x3e506d(0xec)]['display']=_0x3e506d(0x15a),document['getElementById'](_0x3e506d(0x150))[_0x3e506d(0xec)][_0x3e506d(0x162)]=_0x3e506d(0x10e),OpenForm();}function OpenForm(){var _0x10e9d8=_0x22cf5c;CheckFoundData==0x1?(document[_0x10e9d8(0x155)](_0x10e9d8(0x165))[_0x10e9d8(0xec)]['display']=_0x10e9d8(0x15a),document['getElementById'](_0x10e9d8(0x150))[_0x10e9d8(0xec)]['display']=_0x10e9d8(0x15a),document[_0x10e9d8(0x155)](_0x10e9d8(0x163))[_0x10e9d8(0xec)]['display']=_0x10e9d8(0x10e),document['getElementById'](_0x10e9d8(0x13b))[_0x10e9d8(0xec)][_0x10e9d8(0x162)]=_0x10e9d8(0x15a)):(document['getElementById']('OpenBootCamp')[_0x10e9d8(0xec)]['display']=_0x10e9d8(0x15a),document[_0x10e9d8(0x155)]('myRegister')[_0x10e9d8(0xec)][_0x10e9d8(0x162)]=_0x10e9d8(0x10e),document['getElementById']('myTimer')[_0x10e9d8(0xec)][_0x10e9d8(0x162)]=_0x10e9d8(0x15a),document[_0x10e9d8(0x155)]('myDisplayLine')[_0x10e9d8(0xec)][_0x10e9d8(0x162)]=_0x10e9d8(0x15a));}function ClickSaveProfile(){var _0x1c6616=_0x22cf5c;sCheckBottom=0x0,stxtEmpID=document[_0x1c6616(0x155)](_0x1c6616(0x157))[_0x1c6616(0x12d)],stxtEmpName=document[_0x1c6616(0x155)](_0x1c6616(0x138))[_0x1c6616(0x12d)],stxtEmpGroup=document[_0x1c6616(0x155)]('txtEmpGroup')['value'],stxtATK=_0x1c6616(0x114),stxtEmpID!==null&&stxtEmpID!==''&&(sCheckBottom=sCheckBottom+0x1),stxtEmpName!==null&&stxtEmpName!==''&&(sCheckBottom=sCheckBottom+0x1),stxtEmpGroup!==null&&stxtEmpGroup!==''&&(sCheckBottom=sCheckBottom+0x1),stxtATK!==null&&stxtATK!==''&&(sCheckBottom=sCheckBottom+0x1),sCheckBottom==0x4?(sATK=_0x1c6616(0x114),sessionStorage[_0x1c6616(0x152)]('EmpID',document[_0x1c6616(0x155)](_0x1c6616(0x157))[_0x1c6616(0x12d)]),sessionStorage[_0x1c6616(0x152)]('EmpGroup',document[_0x1c6616(0x155)](_0x1c6616(0x170))[_0x1c6616(0x12d)]),document['getElementById'](_0x1c6616(0x11f))['style'][_0x1c6616(0x162)]=_0x1c6616(0x10e),CheckMember(),SaveData()):alert(_0x1c6616(0xef));}function SaveData(){var _0x551c5c=_0x22cf5c;document[_0x551c5c(0x155)](_0x551c5c(0x11f))[_0x551c5c(0xec)][_0x551c5c(0x162)]=_0x551c5c(0x10e);var _0x1be743=_0x551c5c(0x104);NewDate();var _0x160642=Math[_0x551c5c(0x141)](Date[_0x551c5c(0x124)]()/0x3e8);sDateTime=dateString,sessionStorage[_0x551c5c(0x152)]('CheckPass',sDateTime),document['getElementById'](_0x551c5c(0x170))[_0x551c5c(0x12d)]!=_0x551c5c(0x14a)&&(_0x1be743='BBD'),Eid==''?(db[_0x551c5c(0x145)]({'lineID':sessionStorage[_0x551c5c(0x103)](_0x551c5c(0x167)),'linename':sessionStorage[_0x551c5c(0x103)](_0x551c5c(0x139)),'empPicture':sessionStorage[_0x551c5c(0x103)]('LinePicture'),'empID':document[_0x551c5c(0x155)](_0x551c5c(0x157))[_0x551c5c(0x12d)],'empName':document['getElementById'](_0x551c5c(0x138))[_0x551c5c(0x12d)],'empRH':document[_0x551c5c(0x155)](_0x551c5c(0x170))[_0x551c5c(0x12d)],'empBr':_0x1be743,'statusconfirm':0x2,'statusedit':0x1,'statuspass':0x0,'memo':eSpace,'empAddress':eSpace,'DateRegister':dateString}),xReDirectData=0x1):db[_0x551c5c(0xf9)](Eid)['update']({'lineID':sessionStorage[_0x551c5c(0x103)](_0x551c5c(0x167)),'linename':sessionStorage['getItem'](_0x551c5c(0x139)),'empPicture':sessionStorage[_0x551c5c(0x103)](_0x551c5c(0x127)),'empID':document['getElementById']('txtEmpID')['value'],'empName':document['getElementById'](_0x551c5c(0x138))[_0x551c5c(0x12d)],'empRH':document['getElementById'](_0x551c5c(0x170))['value'],'empBr':_0x1be743,'DateRegister':dateString}),EidBootRegister==''&&(sessionStorage[_0x551c5c(0x103)](_0x551c5c(0x12b))==null&&sessionStorage['setItem']('EmpMember',0x0),dbBootRegister[_0x551c5c(0x145)]({'LineID':sessionStorage['getItem'](_0x551c5c(0x167)),'LineName':sessionStorage[_0x551c5c(0x103)](_0x551c5c(0x139)),'LinePicture':sessionStorage['getItem'](_0x551c5c(0x127)),'EmpID':document[_0x551c5c(0x155)](_0x551c5c(0x157))['value'],'EmpName':document['getElementById'](_0x551c5c(0x138))[_0x551c5c(0x12d)],'EmpRH':document[_0x551c5c(0x155)](_0x551c5c(0x170))[_0x551c5c(0x12d)],'ATK':_0x551c5c(0x114),'EmpMember':parseInt(sessionStorage[_0x551c5c(0x103)](_0x551c5c(0x12b))),'PreRegister':0x0,'EmpTable':parseInt(sessionStorage[_0x551c5c(0x103)]('EmpTable')),'EmpSize':sessionStorage[_0x551c5c(0x103)](_0x551c5c(0x130)),'PreDateTime':eSpace,'StatusRegister':0x1,'TimegetBox':eSpace,'CampRound':sCampRound,'EmpType':sEmpType,'TimeStamp':_0x160642,'DateTime':dateString})),EidBootMember!=''&&dbBootMember[_0x551c5c(0xf9)](EidBootMember)[_0x551c5c(0xfd)]({'LineID':sessionStorage['getItem']('LineID'),'LineName':sessionStorage['getItem'](_0x551c5c(0x139)),'LinePicture':sessionStorage[_0x551c5c(0x103)](_0x551c5c(0x127)),'StatusRegister':0x1,'TimeIN':dateString,'TimeStampRec':_0x160642}),CheckRegister(),document['getElementById'](_0x551c5c(0x11f))[_0x551c5c(0xec)]['display']=_0x551c5c(0x15a),document[_0x551c5c(0x155)](_0x551c5c(0x150))[_0x551c5c(0xec)][_0x551c5c(0x162)]=_0x551c5c(0x15a),document[_0x551c5c(0x155)](_0x551c5c(0x13c))[_0x551c5c(0xec)][_0x551c5c(0x162)]='block',document[_0x551c5c(0x155)](_0x551c5c(0x102))[_0x551c5c(0xec)]['display']=_0x551c5c(0x10e);}function RegisterClose(){var _0x248a54=_0x22cf5c;document['getElementById'](_0x248a54(0x11f))[_0x248a54(0xec)]['display']=_0x248a54(0x15a),document[_0x248a54(0x155)](_0x248a54(0x137))['style'][_0x248a54(0x162)]=_0x248a54(0x15a),document[_0x248a54(0x155)](_0x248a54(0x161))[_0x248a54(0xec)][_0x248a54(0x162)]=_0x248a54(0x10e);}function OpenRegister(_0x164843){var _0x5a030e=_0x22cf5c,_0x59ff93='';dbBootRegister[_0x5a030e(0x120)](firebase[_0x5a030e(0x13d)]['FieldPath'][_0x5a030e(0x112)](),'==',_0x164843)['get']()[_0x5a030e(0x16f)](_0x564a3e=>{var _0x13c4e7=_0x5a030e;_0x564a3e[_0x13c4e7(0xfe)](_0x556489=>{var _0x529dfa=_0x13c4e7;_0x59ff93+='<div\x20style=\x22margin-top:0px;\x22><img\x20src=\x27'+_0x556489[_0x529dfa(0x159)]()[_0x529dfa(0x127)]+'\x27\x20class=\x22img-member-true\x22\x20style=\x22width:120px;height:120px;border-radius:50%;box-shadow:\x200px\x200px\x206px\x205px\x20rgba(178,178,178,0.17);\x22>',_0x59ff93+=_0x529dfa(0x156)+_0x556489[_0x529dfa(0x159)]()[_0x529dfa(0x139)]+'</div>',_0x59ff93+=_0x529dfa(0x10b)+_0x556489[_0x529dfa(0x159)]()[_0x529dfa(0x11e)]+_0x529dfa(0x132),_0x59ff93+=_0x529dfa(0x133)+sessionStorage[_0x529dfa(0x103)](_0x529dfa(0x15c))+_0x529dfa(0x132),_0x59ff93+=_0x529dfa(0x15e)+_0x556489[_0x529dfa(0x159)]()[_0x529dfa(0xf1)]+'</div>';}),$(_0x13c4e7(0x14d))[_0x13c4e7(0x129)](_0x59ff93),document[_0x13c4e7(0x155)](_0x13c4e7(0x126))[_0x13c4e7(0xec)][_0x13c4e7(0x162)]=_0x13c4e7(0x10e);});}function CloseAll(){var _0x54bc4d=_0x22cf5c;document['getElementById'](_0x54bc4d(0x126))[_0x54bc4d(0xec)][_0x54bc4d(0x162)]=_0x54bc4d(0x15a),document[_0x54bc4d(0x155)](_0x54bc4d(0x12c))[_0x54bc4d(0xec)][_0x54bc4d(0x162)]='none';}function NewDate(){var _0x13f6a3=_0x22cf5c,_0x11bc38=new Date(),_0x3d2744=_0x11bc38[_0x13f6a3(0x10d)]()+'',_0x1dc937=_0x11bc38[_0x13f6a3(0x143)]()+0x1+'',_0x3c0a5=_0x11bc38[_0x13f6a3(0x136)]()+'',_0x2f44c3=_0x11bc38[_0x13f6a3(0x16c)]()+'',_0x1affce=_0x11bc38[_0x13f6a3(0x16d)]()+'',_0xa6b690=_0x11bc38['getSeconds']()+'',_0x1da0b3=_0x2f44c3>=0xc?'PM':'AM';_0x3d2744=checkZero(_0x3d2744),_0x1dc937=checkZero(_0x1dc937),_0x3c0a5=checkZero(_0x3c0a5),_0x2f44c3=checkZero(_0x2f44c3),_0x1affce=checkZero(_0x1affce),_0xa6b690=checkZero(_0xa6b690),dateString=_0x3d2744+'/'+_0x1dc937+'/'+_0x3c0a5+'\x20'+_0x2f44c3+':'+_0x1affce+':'+_0xa6b690+'\x20'+_0x1da0b3;}function checkZero(_0x56980e){return _0x56980e['length']==0x1&&(_0x56980e='0'+_0x56980e),_0x56980e;}function ShowRegister(){var _0x1fcbce=_0x22cf5c,_0x1781a6='',_0x1f51dd=0x0;_0x1781a6+=_0x1fcbce(0x100)+sessionStorage[_0x1fcbce(0x103)]('CampName')+'</b></div>',_0x1781a6+=_0x1fcbce(0x13f),dbBootRegister['where'](_0x1fcbce(0x116),'==',xRound)['where']('StatusRegister','==',0x1)['orderBy'](_0x1fcbce(0xf0),_0x1fcbce(0xf8))[_0x1fcbce(0x147)]()['then'](_0x220923=>{var _0x5aaff2=_0x1fcbce;_0x220923['forEach'](_0x152bfb=>{var _0x3ecd13=_0x51a1;console[_0x3ecd13(0x142)](_0x152bfb[_0x3ecd13(0x159)]()[_0x3ecd13(0x11e)]),_0x1f51dd=_0x1f51dd+0x1,_0x1781a6+=_0x3ecd13(0x144)+_0x152bfb['id']+_0x3ecd13(0x151),_0x1781a6+='<div><img\x20src=\x22'+_0x152bfb[_0x3ecd13(0x159)]()[_0x3ecd13(0x127)]+_0x3ecd13(0x140),_0x1781a6+='<div\x20class=\x22clr\x20txt-member\x22\x20style=\x22font-size:11px;line-height:1.2;\x20color:#fff;\x20padding-top:4px;\x22>'+_0x152bfb[_0x3ecd13(0x159)]()[_0x3ecd13(0x139)]+_0x3ecd13(0x121),console[_0x3ecd13(0x142)](_0x1781a6);}),_0x1781a6+=_0x5aaff2(0x164),_0x1781a6+=_0x5aaff2(0x111),_0x1781a6+='<div\x20class=\x22btn-t1\x22\x20onclick=\x22GotoDetail()\x22\x20style=\x22margin-top:25px;\x22>กำหนดการกิจกรรม</div><div\x20class=\x22clr\x22\x20style=\x22height:5px;\x22></div>',_0x1781a6+='<div\x20class=\x22clr\x22></div>',_0x1781a6+=_0x5aaff2(0xff),_0x1781a6+=_0x5aaff2(0xf5),$(_0x5aaff2(0x128))[_0x5aaff2(0x129)](_0x1781a6),$(_0x5aaff2(0x14c))[_0x5aaff2(0x129)](_0x5aaff2(0x148)+_0x1f51dd+_0x5aaff2(0x119));});}
+var GroupCamp = 4;
+var timerId = "";
+var stxtEmpID = "";
+var stxtEmpName = "";
+var stxtEmpPhone = "";
+var stxtEmpGroup = "";
+var db = "";
+var dbBootCamp = "";
+var dbBootMember = "";
+var CheckFoundData = 0;
+var Eid = "";
+var EidBootCamp = ""; 
+var EidBootRegister = ""; 
+var EidBootMember = "";
+var dateString = new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' });
+var sDateRegister = "";
+var i = 0;
+const x = document.querySelectorAll(`div.com[min="${i}"]`);
+var sCheckOpen = "";
+var sCampRound = "";
+var sDateTime = ""; 
+var sLINERegister = "";
+var sATK = "";
+var xRound = "";
+var parts = [];
+var parts1 = [];
+parts = xRound.split("-"); //สร้างString arry ชื่อparts
+var FinalRound = parts[0]; // 004  //String part1 เก็บค่าparts[0]
+var FinalRoundSplit = parts[1]; // 004  //String part1 เก็บค่าparts[0]
+var xEmpSize = "";
+var eSpace = "";
+var xEmpGroup = "";
+var sCheckBottom = 0;
+var xReDirectData = 0;
+var sTeam = "";
+var sTrainingDays = "";
+var xText = "ยินดีต้อนรับสู่<br>ttb BootCamp 2024";
+
+$(document).ready(function () {
+  //if(sessionStorage.getItem("CheckVDO")==null) { 
+  //  sessionStorage.setItem("CheckVDO", "PlayVDO");
+    //document.getElementById('id02').style.display='block';
+  //}
+
+  var str = "";
+  var sLineID = "Ua6b6bf745bd9bfd01a180de1a05c23b3";
+  var sLineName = "Website";
+  var sLinePicture = "https://profile.line-scdn.net/0hoLlg-mNNMGNRHiaTpMdPNG1bPg4mMDYrKX8qVnIYOgYpe3QwbCp2AXVKaVN_fnMzOC16V3NMagF8";
+  sessionStorage.setItem("LineID", sLineID);
+  sessionStorage.setItem("LineName", sLineName);
+  sessionStorage.setItem("LinePicture", sLinePicture);
+  str += '<div><img src="'+ sessionStorage.getItem("LinePicture") +'" class="profile-team1"></div>';
+  str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
+  $("#MyProfile1").html(str);  
+  $("#MyProfile").html(str);  
+  Connect_DB();
+  CheckEmpID();
+  CheckBootCampOpen();
+
+  //main()
+});
+
+
+
+async function main() {
+  await liff.init({ liffId: "1656865573-oOG66mOA" });
+  document.getElementById("isLoggedIn").append(liff.isLoggedIn());
+  if(liff.isLoggedIn()) {
+    getUserProfile();
+  } else {
+    liff.login();
+  }
+}
+
+
+function openWindow() {
+  liff.openWindow({
+    url: "https://line.me",
+    external: true     
+  })
+}
+
+
+async function getUserProfile() {
+  var str = "";
+  const profile = await liff.getProfile();
+  sessionStorage.setItem("LineID", profile.userId);
+  sessionStorage.setItem("LineName", profile.displayName);
+  sessionStorage.setItem("LinePicture", profile.pictureUrl);
+  //str += '<div><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile" width="100px"></div>';
+  str += '<div><img src="'+ sessionStorage.getItem("LinePicture") +'" class="profile-team1"></div>';
+  str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
+  $("#MyProfile").html(str);  
+  $("#MyProfile1").html(str);  
+  Connect_DB();
+  CheckEmpID();
+  CheckBootCampOpen();
+}
+
+
+var xCheckUser = 0;
+function CheckEmpID() {
+  db.where('lineID','==',sessionStorage.getItem("LineID"))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      xCheckUser = doc.data().empID;
+      sessionStorage.setItem("EmpID", doc.data().empID);
+    });
+  });
+}
+
+
+function CheckBootCampOpen() {
+  var str = "";
+  dbBootCamp.where('CampStatus','==',GroupCamp)
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      EidBootCamp = doc.id;
+      xRound = doc.data().EmpType;
+      sEmpType = doc.data().EmpType;
+      sCheckOpen = doc.data().CampName;
+      sCampRound = doc.data().CampRound;
+      simg_reg = doc.data().img_reg;
+      sTrainingDays = doc.data().TrainingDays;
+      sessionStorage.setItem("CampRound", doc.data().CampRound);
+      sessionStorage.setItem("CampTeam", doc.data().EmpGroup);
+      sessionStorage.setItem("CampName", doc.data().CampName);
+      $("#OpenNameCamp").html(sCheckOpen+"<br>"+sTrainingDays);    
+      $("#DisplayRound").html(sCheckOpen+"<br>"+sTrainingDays);    
+    });
+    if(xRound!="") { 
+      CheckData();
+      CheckRegister();
+    } else {
+      RegisterClose();
+    }
+  });
+}
+
+
+var xCheckRegister = 0; 
+function CheckRegister() {
+  var str = "";
+  dbBootRegister.where('LineID','==',sessionStorage.getItem("LineID"))
+  .where('CampRound','==',xRound)
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      xCheckRegister = 1;
+      EidBootRegister = doc.id;
+      sDateTime = doc.data().DateTime;
+      sessionStorage.setItem("EmpID", doc.data().EmpID);
+      sessionStorage.setItem("EmpName", doc.data().EmpName);
+      sessionStorage.setItem("CheckPass", doc.data().DateTime);
+      sessionStorage.setItem("EmpGroup", doc.data().EmpRH);
+      sessionStorage.setItem("EmpMember", doc.data().EmpMember);
+      sessionStorage.setItem("PreRegister", doc.data().PreRegister);
+      sessionStorage.setItem("DateTime", doc.data().DateTime);
+      document.getElementById('OpenBootCamp').style.display='none';
+      document.getElementById('myRegister').style.display='none';
+      document.getElementById('myTimer').style.display='block';
+      document.getElementById('OpenBar').style.display='block';
+    });
+    if(EidBootRegister=="") {
+      CheckMember();
+      document.getElementById('loading').style.display='none';
+      document.getElementById('gotoLink').style.display='block';
+      document.getElementById('OpenRegister').style.display='block';
+    } else {
+      if(sessionStorage.getItem("LineID")!=null) {
+        if(sessionStorage.getItem("DateTime")=="") {
+          SaveUpdate();
+        }
+      }
+      CheckMember();
+    }
+  });
+}
+
+function CheckMember() {
+  NewDate();
+  dbBootMember.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .where('EmpType','==',sCampRound)
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      EidBootMember = doc.id;
+      xEmpType = doc.data().EmpType;
+      sessionStorage.setItem("EmpName", doc.data().EmpName);
+      sessionStorage.setItem("EmpTable", doc.data().EmpTable);
+      sessionStorage.setItem("TimeRegister", doc.data().TimeRegister);
+      sessionStorage.setItem("EmpMember", 1);
+      sessionStorage.setItem("EmpSize", doc.data().EmpSize);
+      sTeam = doc.data().EmpGroup;
+    });
+  });
+  if(xReDirectData==1) {
+    document.getElementById('loading').style.display='block';
+    timerId = setInterval(GotoRoadshow, 4000); 
+  }
+}
+
+
+function SaveUpdate() {
+  NewDate();
+  var eEmpGroup = "other";
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  sDateTime = dateString;
+  sessionStorage.setItem("CheckPass", sDateTime);
+  dbBootRegister.doc(EidBootRegister).update({
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    StatusRegister : 1,
+    TimeStamp : TimeStampDate,
+    TimegetBox : eSpace,
+    DateTime : dateString
+  });
+  //console.lg("save="+sessionStorage.getItem("LinePicture"));
+}
+
+
+function WaitingPage() {
+  //console.log("Line 268 = "+xReDirectData);
+  document.getElementById('OpenRegister').style.display='none';
+  document.getElementById('loading').style.display='none';
+  document.getElementById('myDisplayLine').style.display='none';
+  document.getElementById('myRegister').style.display='none';
+  if(xCheckRegister==1) {
+    document.getElementById('OpenRegister').style.display='none';
+    document.getElementById('BootCampLoading').style.display='none';
+  }
+  var str = "";
+  var xEmpType = "";
+  if(sDateTime=="") {
+    NewDate();
+    sDateTime = dateString;
+  }
+  dbBootMember.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .where('EmpType','==',sCampRound)
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      EidBootMember = doc.id;
+      xEmpType = doc.data().EmpType;
+      sessionStorage.setItem("EmpName", doc.data().EmpName);
+      sessionStorage.setItem("EmpMember", 1);
+      xEmpGroup = doc.data().EmpGroup;
+      xEmpSize = doc.data().EmpSize;
+    });
+    str +='<div style="color:#fff;font-weight: 600; margin-bottom:10px;">คุณ'+sessionStorage.getItem("EmpName")+'</div>';
+    if(xEmpGroup!="" && xEmpSize!="") { 
+      str +='<div class="profile-txt1" style="color:#ccc; font-size:12px; margin-top:12px;">ทีมของคุณ</div>';
+      //str += '<div style="font-size:15px; font-weight:600; color:#fff; background:#0056ff; margin:2px 20% 6px 20%; padding-top:8px; padding-bottom:10px; border-radius:8px;">'+xEmpGroup+' --> '+xEmpSize+'</div>';
+      str +='<center><div style="width:220px; margin:auto;">';
+      str += '<div style="margin-top:5px;"><img src="./flax/'+xEmpGroup+'.jpg" style="width:130px; border-radius: 10px;"></div>';
+      //str += '<div style="float: left; font-size:15px; font-weight:600; width:100px; color:#fff; background:#0056ff; margin:2px 6px; 6px auto; padding-top:8px; padding-bottom:10px; border-radius:8px;">'+xEmpGroup+'</div>';
+      str += '<div style="font-size:14px; font-weight:600; color:#fff; margin:5px auto; 6px auto; padding-top:8px; padding-bottom:10px; color:#ffff00;">'+xEmpSize+'</div>';
+      str += '</div></center><div class="clr"></div>';
+    } else if(xEmpGroup=="" && xEmpSize!="") { 
+      str +='<div class="profile-txt1" style="color:#ccc; font-size:12px; margin-top:12px;">ทีมของคุณ</div>';
+      str += '<div style="margin-top:5px;"><img src="./flax/'+xEmpGroup+'.jpg" style="width:130px; border-radius: 10px;"></div>';
+      str += '<div style="font-size:15px; font-weight:600; color:#fff; background:#05b322; margin:5px 30% 6px 30%; padding-top:8px; padding-bottom:10px; border-radius:8px;">'+xEmpSize+'</div>';
+    } else {
+      str += '<div style="font-size:15px; font-weight:600; color:#fff; background:#cb1515; margin:12px 20% 6px 20%; padding-top:8px; padding-bottom:10px; border-radius:8px;">'+ xText +'</div>';
+    }
+    if(sDateTime!="") {
+      str +='<div class="btn-a1" onclick="GotoTeam()" style="margin-top:20px;">คลิกดูสมาชิกในทีมของคุณ</div><div class="clr" style="height:5px;"></div>';
+      str +='<div style="color:#baaeae;font-size:11px;font-weight: 400; margin-top:5px;">ลงทะเบียนเมื่อ : '+ sDateTime +'</div>';
+    }
+    //str +='<div class="btn-t1" onclick="GotoApp()" style="margin-top:25px; margin-right: 3px;">ONE Retail Society</div>';
+    //str +='<div class="btn-t1" onclick="GotoDetail()" style="margin-top:25px;">กำหนดการกิจกรรม</div><div class="clr" style="height:5px;"></div>';
+    //str += '<div class="clr"></div>';
+    //str +='<div class="btn-t1" onclick="ShowRegister()" style="margin-top:10px;width:230px;font-size:11px;">ดูข้อมูลผู้ลงทะเบียน</div>';
+    document.getElementById('loading').style.display='none';
+    $("#MyWating").html(str);    
+  });
+}
+
+
+function CheckData() {
+  document.getElementById('BootCampLoading').style.display='none';
+  db.where('lineID','==',sessionStorage.getItem("LineID"))
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      Eid = doc.id;
+      sDateRegister = doc.data().DateRegister;
+      sessionStorage.setItem("EmpID", doc.data().empID);
+      sessionStorage.setItem("EmpName", doc.data().empName);
+      sessionStorage.setItem("EmpPhone", doc.data().empPhone);
+      document.getElementById("txtEmpID").value = doc.data().empID;
+      document.getElementById("txtEmpName").value = doc.data().empName;
+      //document.getElementById("txtEmpGroup").value = doc.data().empRH;
+      WaitingPage();
+    });
+    if(document.getElementById("txtEmpID").value!="") {
+      $("#test *").attr("disabled", "disabled").off('click');
+      //$('#txtEmpGroup').prop('disabled', false);
+      $('#a1').prop('disabled', false);
+      $('#a2').prop('disabled', false);
+      $('#a3').prop('disabled', false);
+    }
+  });
+}
+
+
+function KeyRegister() {
+    document.getElementById('OpenRegister').style.display='none';
+    document.getElementById('DisplayLogo').style.display='none';
+    document.getElementById('loading').style.display='none';
+    document.getElementById('myRegister').style.display='block';
+    OpenForm();
+}
+
+
+function OpenForm() {
+  if(CheckFoundData==1) {
+    document.getElementById('OpenBootCamp').style.display='none';
+    document.getElementById('myRegister').style.display='none';
+    document.getElementById('myTimer').style.display='block';
+    document.getElementById('myDisplayLine').style.display='none';
+  } else {
+    document.getElementById('OpenBootCamp').style.display='none';
+    document.getElementById('myRegister').style.display='block';
+    document.getElementById('myTimer').style.display='none';
+    document.getElementById('myDisplayLine').style.display='none';
+  }
+}
+
+
+function ClickSaveProfile() {
+  sCheckBottom = 0;
+  stxtEmpID = document.getElementById("txtEmpID").value;
+  stxtEmpName = document.getElementById("txtEmpName").value;
+  //stxtEmpGroup = document.getElementById("txtEmpGroup").value;
+  stxtATK = "Negative";
+  if(stxtEmpID !== null && stxtEmpID !== '') { sCheckBottom = sCheckBottom+1; }
+  if(stxtEmpName !== null && stxtEmpName !== '') { sCheckBottom = sCheckBottom+1; }
+  //if(stxtEmpGroup !== null && stxtEmpGroup !== '') { sCheckBottom = sCheckBottom+1; }
+  if(stxtATK !== null && stxtATK !== '') { sCheckBottom = sCheckBottom+1; }
+  if(sCheckBottom==3) {
+    sATK = "Negative";
+    sessionStorage.setItem("EmpID", document.getElementById("txtEmpID").value);
+    //sessionStorage.setItem("EmpGroup", document.getElementById("txtEmpGroup").value);
+    document.getElementById('loading').style.display='block';
+    CheckMember();
+    SaveData();
+  } else {
+    alert("คุณยังกรอกข้อมูลไม่ครบถ้วน");
+  }
+}
+
+
+function SaveData() {
+  if(sessionStorage.getItem("LineID")==null) {
+    location.href = "bootcamp.html";
+  }
+  document.getElementById('loading').style.display='block';
+  var eEmpGroup = "other";
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  sDateTime = dateString;
+  sessionStorage.setItem("CheckPass", sDateTime);
+  //if(document.getElementById("txtEmpGroup").value!="OTHER") {
+    eEmpGroup = "ttb bank";
+  //} 
+  if(Eid=="") {
+    db.add({
+      lineID : sessionStorage.getItem("LineID"),
+      linename : sessionStorage.getItem("LineName"),
+      empPicture : sessionStorage.getItem("LinePicture"),
+      empID : document.getElementById("txtEmpID").value,
+      empName : document.getElementById("txtEmpName").value,
+      empBr : eEmpGroup,
+      empRH : eEmpGroup,
+      //empRH : document.getElementById("txtEmpGroup").value,
+      //empBr : eEmpGroup,
+      statusconfirm : 2,
+      statusedit : 1,
+      statuspass : 0,
+      memo : eSpace,
+      empAddress : eSpace,
+      DateRegister : dateString
+    });
+    xReDirectData = 1;
+  } else {
+    db.doc(Eid).update({
+      lineID : sessionStorage.getItem("LineID"),
+      linename : sessionStorage.getItem("LineName"),
+      empPicture : sessionStorage.getItem("LinePicture"),
+      empID : document.getElementById("txtEmpID").value,
+      empName : document.getElementById("txtEmpName").value,
+      empBr : eEmpGroup,
+      //empName : document.getElementById("txtEmpName").value,
+      //empRH : document.getElementById("txtEmpGroup").value,
+      empBr : eEmpGroup,
+      empRH : eEmpGroup,
+      DateRegister : dateString
+    });
+  }
+  if(EidBootRegister=="") {
+    if(sessionStorage.getItem("EmpMember")==null) {
+      sessionStorage.setItem("EmpMember", 0);
+    }
+    dbBootRegister.add({
+      LineID : sessionStorage.getItem("LineID"),
+      LineName : sessionStorage.getItem("LineName"),
+      LinePicture : sessionStorage.getItem("LinePicture"),
+      EmpID : document.getElementById("txtEmpID").value,
+      EmpName : document.getElementById("txtEmpName").value,
+      EmpRH : eEmpGroup,
+      //EmpRH : document.getElementById("txtEmpGroup").value,
+      ATK : "Negative",
+      EmpMember : parseInt(sessionStorage.getItem("EmpMember")),
+      PreRegister : 0,
+      EmpTable : parseInt(sessionStorage.getItem("EmpTable")),
+      EmpSize : sessionStorage.getItem("EmpSize"),
+      PreDateTime : eSpace,
+      StatusRegister : 1,
+      TimegetBox : eSpace,
+      CampRound : sCampRound,
+      EmpType : sEmpType,
+      TimeStamp : TimeStampDate,
+      DateTime : dateString
+    });
+  }
+ 
+  if(EidBootMember!="") {
+    dbBootMember.doc(EidBootMember).update({
+      LineID : sessionStorage.getItem("LineID"),
+      LineName : sessionStorage.getItem("LineName"),
+      LinePicture : sessionStorage.getItem("LinePicture"),
+      StatusRegister : 1,
+      TimeIN : dateString,
+      TimeStampRec : TimeStampDate
+    });
+  }
+  CheckRegister();
+  document.getElementById('loading').style.display='none';
+  document.getElementById('myRegister').style.display='none';
+  document.getElementById('DisplayLogo').style.display='block';
+/*
+  document.getElementById('OpenBar').style.display='block';
+  location.href = "bootcamp.html";
+*/
+}
+
+function RegisterClose() {
+  document.getElementById('loading').style.display='none';
+  document.getElementById('BootCampLoading').style.display='none';
+  document.getElementById('BootCampClose').style.display='block';
+}
+
+
+function OpenRegister(x) {
+  var str = "";
+  dbBootRegister.where(firebase.firestore.FieldPath.documentId(), "==", x)
+  .get().then((snapshot)=> {
+  snapshot.forEach(doc=> {
+      str += '<div style="margin-top:0px;"><img src=\''+ doc.data().LinePicture +'\' class="img-member-true" style="width:120px;height:120px;border-radius:50%;box-shadow: 0px 0px 6px 5px rgba(178,178,178,0.17);">';
+      str += '<div class="txt-member1" style="padding-top: 6px;color:#f68b1f">'+doc.data().LineName+'</div>';
+      str += '<div style="margin-top:20px;font-size:13px;font-weight: 600;color:#0056ff;">คุณ'+doc.data().EmpName+'</div>';
+      str += '<div style="color:#002d63;">ลงทะเบียนกิจกรรม<br>'+sessionStorage.getItem("CampName")+'</div>';
+      str += '<div style="color:#999;font-size:11px;">ลงทะเบียนเมื่อ '+doc.data().DateTime+'</div>';
+    });
+    $("#DisplayUser").html(str);  
+    document.getElementById("id01").style.display = "block";
+  });
+}
+
+
+function CloseAll() {
+  document.getElementById('id01').style.display='none';
+  document.getElementById('id02').style.display='none';
+}
+
+
+function NewDate() {
+  var today = new Date();
+  var day = today.getDate() + "";
+  var month = (today.getMonth() + 1) + "";
+  var year = today.getFullYear() + "";
+  var hour = today.getHours() + "";
+  var minutes = today.getMinutes() + "";
+  var seconds = today.getSeconds() + "";
+  var ampm = hour >= 12 ? 'PM' : 'AM';
+  day = checkZero(day);
+  month = checkZero(month);
+  year = checkZero(year);
+  hour = checkZero(hour);
+  minutes = checkZero(minutes);
+  seconds = checkZero(seconds);
+  dateString = day + "/" + month + "/" + year + " " + hour + ":" + minutes + ":" + seconds +" "+ ampm;
+}
+
+
+function checkZero(data){
+  if(data.length == 1){
+    data = "0" + data;
+  }
+  return data;
+}
+
+
+function ShowRegister() {
+  console.log("ShowRegister===="+xRound);
+  //document.getElementById('myDisplayLine').style.display='none';
+  //document.getElementById('myRegister').style.display='none';
+  //document.getElementById('myTimer').style.display='block';
+  var str = "";
+  var sCountID = 0;
+  str +='<div style="font-size: 14px; color:#fff;">ttb Registration System<br><b>'+sessionStorage.getItem("CampName")+'</b></div>';
+  str +='<div id="DisplayCountRegister" style="margin: 10px auto; font-size: 13px; color: #ffff00;"></div>';
+  dbBootRegister.where('CampRound','==',xRound)
+  .where('StatusRegister','==',1)
+  .orderBy('TimeStamp','desc')
+  .get().then((snapshot)=> {
+  snapshot.forEach(doc=> {
+      console.log(doc.data().EmpName);
+      sCountID = sCountID+1;
+      str += '<div class="box-member" style="width:61px;height:80px;overflow:hidden;float: left;" onclick="OpenRegister(\''+ doc.id +'\')">';
+      str += '<div><img src="'+ doc.data().LinePicture +'" class="img-register"></div>';
+      str += '<div class="clr txt-member" style="font-size:11px;line-height:1.2; color:#fff; padding-top:4px;">'+ doc.data().LineName +'</div></div>';
+      console.log(str);
+    });
+    str += '<div class="clr"></div>';
+    str +='<div class="btn-t1" onclick="GotoApp()" style="margin-top:25px; margin-right: 3px;">ONE Retail Society</div>';
+    str +='<div class="btn-t1" onclick="GotoDetail()" style="margin-top:25px;">กำหนดการกิจกรรม</div><div class="clr" style="height:5px;"></div>';
+    str += '<div class="clr"></div>';
+    str +='<div class="btn-a1" onclick="GotoTeam()" style="margin-top:5px;">ดูสมาชิกในทีมที่เข้าแข่งขัน</div><div class="clr" style="height:5px;"></div>';
+    str +='<div class="btn-t1" onclick="ShowRegister()" style="margin-top:10px;width:230px;font-size:11px;">ดูข้อมูลผู้ลงทะเบียน</div>';
+
+
+    $("#MyWating").html(str);    
+    $("#DisplayCountRegister").html("<div>จำนวนลงทะเบียน : "+sCountID+" คน</div>");
+    //document.getElementById('id02').style.display='block';  
+  });
+}
